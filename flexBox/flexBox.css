@@ -1,19 +1,102 @@
 .cabecera{
-    margin: 40px;
     display: flex;
    justify-content: space-between;
     align-items: flex-end;
 
+
+
 }
 
 .menu ul{
-    gap: 20px;
+    gap: 30px;
     display: flex;
-   
+    width: 688px;
+    font-family: Calibri;
+    font-size: 24px;
+    font-weight: 700; 
+color: #6E6E6E; 
+
     
 }
 
-.cabecera img{
-    width: 200px;
+.menu ul li:nth-child(1){
+    color: #00B2E3;
+
 }
 
+.cabecera img{
+    height: 150px;
+    
+}
+
+.logo{
+    display: flex;
+
+}
+
+
+
+.seccion_inicio{
+padding-left: 100px;  
+background-color:#D9D9D9;
+height:100vh;
+
+}
+
+.logo p strong{
+font-family:Calibri;
+font-size: 32px;
+font-weight: 700;
+color: #6E6E6E; 
+}
+
+.logo p{
+    color: #00B2E3;
+    padding-top: 20px;
+}
+
+
+
+.inicio h1{
+    padding-top: 50px;
+    font-family: Calibri;
+    font-size: 96px;
+    font-weight: 700;
+    font-size: 50px;
+    color: #6E6E6E;
+}
+.inicio h2{
+    font-family: Calibri;
+    font-size: 40px;
+    font-weight: 700;
+    color: #6E6E6E;
+}
+
+.inicio span{
+    color: #00B2E3;
+}
+
+.botones{
+    padding-top: 100px;
+    
+}
+
+
+.botones .dudas{
+background-color: #00B2E3;
+border-radius: 10px;     
+padding: 15px; 
+
+}
+
+.dudas p{
+    color: white;
+}
+
+.botones .info{
+    background-color: #00B2E3;
+    color: white;
+    border-radius: 10px;     
+    padding: 15px;  
+     
+}
